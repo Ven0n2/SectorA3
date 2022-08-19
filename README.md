@@ -10,3 +10,6 @@ copyToClipboard str call compile preprocessFileLineNumbers "getFaces.sqf";
 i naciśnij "LOCAL EXEC.". Sektory znajdują się w schowku i można je wkleić do sectorConfig.hpp po #define SECTORS.
 
 Liczbę zajętych sektorów można odczytać za pomocą zmiennych commy_westSectorCount i commy_eastSectorCount.
+
+
+~https://armaworld.de/forum/thread/4125-alternativer-sector-control-spielmodus/
