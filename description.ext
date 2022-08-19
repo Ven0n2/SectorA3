@@ -1,0 +1,12 @@
+class Extended_PreInit_EventHandlers {
+    commy_initSectors = "call compile preprocessFileLineNumbers 'initSectors.sqf'";
+};
+
+class Extended_DisplayLoad_EventHandlers {
+    class RscDisplayMission {
+        commy_initSectors = "call compile preprocessFileLineNumbers 'initSectorsUI.sqf'";
+    };
+    class RscDiary {
+        commy_initSectors = "call compile preprocessFileLineNumbers 'initSectorsMap.sqf'";
+    };
+};
